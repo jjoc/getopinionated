@@ -15,10 +15,12 @@ You need a number of python modules installed on your system to be able to run g
 [optional] NeuroDebian 
 (X) wget -O- http://neuro.debian.net/lists/precise.de-m.libre | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
 (X) sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 2649A5A9
+(X) sudo pip install --upgrade scipy (from 0.9.0 to 0.13.x)
 (X) sudo apt-get update
 [optional] python-imaging
 (X) sudo apt-get build-dep python-imaging
 (X) sudo apt-get install libjpeg62 libjpeg62-dev
+(X) sudo apt-get update
 
 
 Installing python 2.7 (& Dependencies)
@@ -32,7 +34,8 @@ Assuming... you have python 2.7, run the following for Django:
 
 (X) sudo apt-get install python-pip
 (X) sudo pip install django==1.4
-(X) sudo pip install --upgrade scipy (from 0.9.0 to 0.13.x)
+(X) sudo apt-get update
+
 
 And Install the other dependencies as follows:
 
