@@ -66,7 +66,8 @@ Getting started
 
 
 [IMPORTANT] Make sure to add a local_settings.py file. 
-(X) vi local_settings.py
+(X) sudo cp -a local_settings.py.template local_settings.py
+(X) sudo vi local_settings.py
 ( ) #ENABLE_SOUTH = True # use south on online databases (just uncomment)
 
 
