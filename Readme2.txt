@@ -67,7 +67,7 @@ Getting started
 
 [IMPORTANT] Make sure to add a local_settings.py file. 
 (X) vi local_settings.py
-(X) #ENABLE_SOUTH = True # use south on online databases (just uncomment)
+( ) #ENABLE_SOUTH = True # use south on online databases (just uncomment)
 
 
 To run the development server, run
