@@ -12,6 +12,7 @@ You need a number of python modules installed on your system to be able to run g
 (X) python-oauth2
 [optional] Scipy 0.12.0 or higher
 (X) sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+(X) sudo apt-get update
 [optional] NeuroDebian 
 (X) wget -O- http://neuro.debian.net/lists/precise.de-m.libre | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
 (X) sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 2649A5A9
