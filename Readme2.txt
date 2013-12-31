@@ -14,6 +14,7 @@ You need a number of python modules installed on your system to be able to run g
 
 Assuming... you have python 2.7, run the following for Django:
 
+(X) sudo apt-get update
 (X) sudo apt-get install python-pip
 (X) sudo pip install django==1.4
 (X) sudo apt-get update
