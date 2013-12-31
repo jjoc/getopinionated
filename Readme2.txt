@@ -40,10 +40,11 @@ Assuming... you have python 2.7, run the following for Django:
 
 
 [optional] Python imaging 
-(X) sudo apt-get install python-imaging
+(?) sudo apt-get install python-imaging
 (X) sudo apt-get build-dep python-imaging
 (X) sudo apt-get install libjpeg62 libjpeg62-dev
 (X) sudo apt-get update
+(E) You must put some 'source' URIs in your sources.list
 
 
 [optional] Aptitude 
