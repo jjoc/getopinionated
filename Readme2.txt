@@ -34,6 +34,7 @@ Assuming... you have python 2.7, run the following for Django:
 (X) wget -O- http://neuro.debian.net/lists/precise.de-m.libre | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
 (X) sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 2649A5A9
 (X) sudo apt-get update
+(X) sudo apt-get upgrade
 
 
 [optional] Python imaging 
