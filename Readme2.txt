@@ -35,6 +35,8 @@ Assuming... you have python 2.7, run the following for Django:
 (X) sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 2649A5A9
 (X) sudo apt-get update
 (X) sudo apt-get upgrade
+(X) sudo apt-get install python-pandas
+(X) sudo apt-get upgrade
 
 
 [optional] Python imaging 
