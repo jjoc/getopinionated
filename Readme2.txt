@@ -86,12 +86,11 @@ Notes for setting up a production server
 
 
 
-Install all optional dependencies as well.
-For more info on this, take a look at a template file.
-Set up cronjob to call the following at least every 5 minutes:
+(?) Install all optional dependencies as well.
+(?) For more info on this, take a look at a template file.
+(X) Set up cronjob to call the following at least every 5 minutes:
 
 python manage.py updatevoting
 
 
 TO-DO: add howto access via web, etc. (although this seems to be insignificant)
-[TEST] whereis getopinionated.settings (testing 4 search)
