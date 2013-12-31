@@ -83,6 +83,8 @@ This will create the database, populate it with the data in testdata.json and ex
 
 Notes for setting up a production server
 
+( ) git clone https://github.com/jjoc/getopinionated/tree/production
+
 
 
 
