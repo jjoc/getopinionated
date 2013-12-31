@@ -40,9 +40,9 @@ You need a number of python modules installed on your system to be able to run g
 
 [optional] Aptitude 
 
-( ) sudo apt-get install aptitude
-( ) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
-( ) sudo aptitude show python-imaging
+(X) sudo apt-get install aptitude
+(X) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
+(X) sudo aptitude show python-imaging
 
 
 Assuming... you have python 2.7, run the following for Django:
