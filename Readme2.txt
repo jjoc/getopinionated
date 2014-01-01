@@ -84,9 +84,10 @@ To run the development server, run
 This will create the database, populate it with the data in testdata.json and execute manage.py runserver.
 
 
-Notes for setting up a production server
+Notes & tricks;) for setting up a production server
 
-( ) git clone https://github.com/jjoc/getopinionated/tree/production
+(X) python manage.py runserver 93.188.161.10:8000
+( ) git clone https://github.com/jjoc/getopinionated/tree/production 
 
 
 
