@@ -94,9 +94,37 @@ Notes & tricks;) for setting up a production server
 
 (?) Install all optional dependencies as well.
 (?) For more info on this, take a look at a template file.
-(X) Set up cronjob to call the following at least every 5 minutes:
-
-python manage.py updatevoting
+(?) Set up cronjob to call the following at least every 5 minutes:
+(X) python manage.py updatevoting
 
 
 TO-DO: add howto access via web, etc. (although this seems to be insignificant)
+-
+-
+-
+-
+-
+
+[Setting UP Django and mod_wsgi] 
+
+[Step 1:]
+(X) sudo apt-get install libapache2-mod-wsgi
+(X) mkdir ~/getopinionated/PROJECT/apache
+(X) vim ~/getopinionated/PROJECT/apache/django.wsgi
+
+[Step 2:] Then in that file you need to copy this code:
+*********************************************************
+import os, sys
+sys.path.append('/root/getopinionated/PROJECT')
+os.environ['DJANGO_SETTINGS_MODULE'] = 'PROJECT.settings'
+import django.core.handlers.wsgi
+application = django.core.handlers.wsgi.WSGIHandler()
+*********************************************************
+
+[Step 3:]
+Inside your /etc/apache2/ directoy, you will find the directory sites-available/. 
+This is where you are going to put your configuration for your server. 
+Presumably it will have a file called default in it that you will edit....???????
+
+
+
