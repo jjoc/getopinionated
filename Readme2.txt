@@ -86,8 +86,8 @@ This will create the database, populate it with the data in testdata.json and ex
 
 Notes & tricks;) for setting up a production server
 
-(X) python manage.py runserver 93.188.161.10:8000
-( ) git clone https://github.com/jjoc/getopinionated/tree/production 
+(X) python manage.py runserver 1.2.3.4:8000 (where 1.2.3.4 is your IP Server)
+( ) git clone https://github.com/jjoc/getopinionated/tree/production (Not Tested)
 
 
 
