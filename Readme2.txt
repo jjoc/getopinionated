@@ -6,15 +6,15 @@ GetOpinionated (Liquid Democracy System)
 
 Installing dependencies in OS Ubuntu 12.04 (32b)
 Ubuntu 12.04 comes with python v 2.7.3 by default.
-Furthermore, getopinionated has been developed on python 2.7.
+Furthermore, getopinionated has been developed on python 2.7
 
 
-You need a number of python modules installed on your system to be able to run getopinionated;
-
-
+You need a number of python modules to run getopinionated;
 Assuming... you have python 2.7, run the following for Django:
 
+
 (X) sudo apt-get update
+(X) sudo apt-get upgrade
 (X) sudo apt-get install python-pip
 (X) sudo pip install django==1.4
 (X) sudo apt-get update
