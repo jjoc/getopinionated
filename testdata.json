@@ -80,7 +80,7 @@
         "model": "auth.user",
         "fields": {
             "username": "joc",
-            "first_name": "jesus",
+            "first_name": "Jesus",
             "last_name": "O.C.",
             "is_active": true,
             "is_superuser": true,
