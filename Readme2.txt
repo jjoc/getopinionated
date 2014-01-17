@@ -31,12 +31,12 @@ Assuming... you have python 2.7, run the following for Django:
 (X) sudo pip install --upgrade scipy (from 0.9.0 to 0.13.x)
 
 [optional] NeuroDebian 
-(X) wget -O- http://neuro.debian.net/lists/precise.de-m.libre | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
-(X) sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 2649A5A9
-(X) sudo apt-get update
-(X) sudo apt-get upgrade
-(X) sudo apt-get install python-pandas
-(X) sudo apt-get upgrade
+( ) wget -O- http://neuro.debian.net/lists/precise.de-m.libre | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
+( ) sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 2649A5A9
+( ) sudo apt-get update
+( ) sudo apt-get upgrade
+( ) sudo apt-get install python-pandas
+( ) sudo apt-get upgrade
 
 
 [optional] Python imaging 
