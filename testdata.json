@@ -79,17 +79,17 @@
         "pk": 5,
         "model": "auth.user",
         "fields": {
-            "username": "u2",
-            "first_name": "u",
-            "last_name": "2",
+            "username": "joc",
+            "first_name": "jesus",
+            "last_name": "O.C.",
             "is_active": true,
-            "is_superuser": false,
-            "is_staff": false,
+            "is_superuser": true,
+            "is_staff": true,
             "groups": [],
             "user_permissions": [],
             "password": "pbkdf2_sha256$10000$X1SNybNsjGbK$lnJ0xLwD641j0hMce+D7Fb6+TY8rSr9gcgu+Y43h1+c=",
-            "email": "sandb.bender@gmail.com",
-            "date_joined": "2011-08-28T08:26:08Z"
+            "email": "soporte@todored.es,
+            "date_joined": "2011-05-15T00:00:08Z"
         }
     },
     {
