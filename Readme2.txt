@@ -50,7 +50,7 @@ Assuming... you have python 2.7, run the following for Django:
 [optional] Aptitude 
 
 (X) sudo apt-get install aptitude
-(X) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
+( ) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
 (X) sudo aptitude show python-imaging
 
 
