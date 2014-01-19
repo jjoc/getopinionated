@@ -116,7 +116,19 @@ Notes & tricks;) for setting up a production server
 (X) activate deactivate etc etc etc
 
 
+[Revisando... Step 4 Step]
 
+(X) 
+
+1) In the settings, you'll find
+
+DEFAULT_DOCUMENT_SLUG = 'default-document'
+This means you will need to go into the admin-section and create a document with the slug default-document
+(we're planning on having multiple documents on one site, but we are not there yet)
+
+2) To run without the console open, you will need to run getopinionated from a server like apache or nginx using a wsgi-script
+
+I'm looking up an example for you as soon I can log in to my server again
 
 
 
