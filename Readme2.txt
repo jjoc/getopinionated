@@ -130,6 +130,13 @@ This means you will need to go into the admin-section and create a document with
 
 I'm looking up an example for you as soon I can log in to my server again
 
+3) for the server: you will need to look up on how to include your getopinionated/wsgi.py in apache
+
+See this for explanation: https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/modwsgi/
+How to use Django with Apache and mod_wsgi | Django documentation | Django
+docs.djangoproject.com
+
+
 
 
 TO-DO: add howto access via web, etc. (although this seems to be insignificant)
