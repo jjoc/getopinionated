@@ -98,6 +98,28 @@ Notes & tricks;) for setting up a production server
 (X) python manage.py updatevoting
 
 
+[TEMP-VirtualEnviroment-PRE-Production]
+
+(X) sudo pip install virtualenv
+(X) sudo pip install virtualenvwrapper
+(X) mkdir ~/.virtualenvs
+(X) export WORKON_HOME=`~/.virtualenvs`
+(X) echo "export WORKON_HOME=$WORKON_HOME" >> ~/.bashrc
+(X) echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+(X) echo "export PIP_VIRTUALENV_BASE=$WORKON_HOME" >> ~/.bashrc
+(X) source ~/.bashrc
+(X) mkvirtualenv getOpinionated
+
+[Testing Commands "dontforget" workon;)]
+
+(X) python -c "import sys; print sys.path"
+(X) activate deactivate etc etc etc
+
+
+
+
+
+
 TO-DO: add howto access via web, etc. (although this seems to be insignificant)
 -
 -
