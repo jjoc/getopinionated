@@ -128,8 +128,6 @@ This means you will need to go into the admin-section and create a document with
 
 2) To run without the console open, you will need to run getopinionated from a server like apache or nginx using a wsgi-script
 
-I'm looking up an example for you as soon I can log in to my server again
-
 3) for the server: you will need to look up on how to include your getopinionated/wsgi.py in apache
 
 See this for explanation: https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/modwsgi/
