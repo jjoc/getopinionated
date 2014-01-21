@@ -71,7 +71,7 @@ Getting started
 (X) cd getopinionated/getopinionated
 (X) sudo cp -a local_settings.py.template local_settings.py
 (X) sudo vi local_settings.py
-( ) #ENABLE_SOUTH = True # use south on online databases (just uncomment)
+(X) #ENABLE_SOUTH = True # use south on online databases (just uncomment)
 
 
 To run the development server, run
@@ -123,13 +123,14 @@ Notes & tricks;) for setting up a production server
 (X) go into the admin-section and create document with the "slug: default-document"
    (we're planning on having multiple documents on one site, but we are not there yet)
 
-2) To run without the console open, you will need to run getopinionated from a server like apache or nginx using a wsgi-script
+(X) 2) For production you need to run getopinionated from a server like apache with "wsgi-script"
 
-3) for the server: you will need to look up on how to include your getopinionated/wsgi.py in apache
+(X) 3) for the server: you need include your getopinionated/wsgi.py in apache
 
-See this for explanation: https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/modwsgi/
+See this for explanation: 
+(X) https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/modwsgi/
 How to use Django with Apache and mod_wsgi | Django documentation | Django
-docs.djangoproject.com
+(X) docs.djangoproject.com
 
 
 
