@@ -132,6 +132,10 @@ See this for explanation:
 How to use Django with Apache and mod_wsgi | Django documentation | Django
 (X) docs.djangoproject.com
 
+oOoh Yeah! 
+(X) sudo chown -R www-data /home/citizen/getopinionated
+(X) sudo chmod -R u+w /home/citizen/getopinionated/*
+
 
 
 
