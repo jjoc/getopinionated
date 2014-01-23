@@ -137,6 +137,18 @@ oOoh Yeah!
 (X) sudo chmod -R u+w /home/citizen/getopinionated/*
 
 
+[EDITOR | REDACTOR]
+
+
+Install django-wysiwyg-redactor:
+(X) sudo pip install django-wysiwyg-redactor
+
+(X) Add 'redactor' to INSTALLED_APPS. (settings.py?)
+(X) Add url(r'^redactor/', include('redactor.urls')), to urls.py
+
+Add default config in settings.py (fot more settings, see here)
+(E!) REDACTOR_OPTIONS = {'lang': 'en'} REDACTOR_UPLOAD = 'uploads/' 
+
 
 
 TO-DO: add howto access via web, etc. (although this seems to be insignificant)
