@@ -150,7 +150,6 @@ Add default config in settings.py (fot more settings, see here)
 (E!) REDACTOR_OPTIONS = {'lang': 'en'} REDACTOR_UPLOAD = 'uploads/' 
 
 
-
 TO-DO: add howto access via web, etc. (although this seems to be insignificant)
 -
 -
