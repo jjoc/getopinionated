@@ -6,7 +6,8 @@ GetOpinionated (Liquid Democracy System)
 
 Installing dependencies in OS Ubuntu 12.04 (32b)
 Ubuntu 12.04 comes with python v 2.7.3 by default.
-Furthermore, getopinionated has been developed on python 2.7 on VENV
+Furthermore, getopinionated has been developed on python 2.7
+
 
 [TEMP-VirtualEnviroment-PRE-Production]
 
