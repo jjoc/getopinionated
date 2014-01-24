@@ -6,7 +6,25 @@ GetOpinionated (Liquid Democracy System)
 
 Installing dependencies in OS Ubuntu 12.04 (32b)
 Ubuntu 12.04 comes with python v 2.7.3 by default.
-Furthermore, getopinionated has been developed on python 2.7
+Furthermore, getopinionated has been developed on python 2.7 on VENV
+
+[TEMP-VirtualEnviroment-PRE-Production]
+
+(X) sudo pip install virtualenv
+(X) sudo pip install virtualenvwrapper
+(X) mkdir ~/.virtualenvs
+(X) export WORKON_HOME=`~/.virtualenvs`
+(X) echo "export WORKON_HOME=$WORKON_HOME" >> ~/.bashrc
+(X) echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+(X) echo "export PIP_VIRTUALENV_BASE=$WORKON_HOME" >> ~/.bashrc
+(X) source ~/.bashrc
+(X) mkvirtualenv getOpinionated
+
+[Testing Commands "dontforget" workon;)]
+
+(X) python -c "import sys; print sys.path"
+(X) activate deactivate etc etc etc
+
 
 
 You need a number of python modules to run getopinionated;
@@ -24,11 +42,26 @@ Assuming... you have python 2.7, run the following for Django:
 (X) python --version
 
 
+[optional] Python imaging 
+(?) sudo apt-get install python-imaging
+(X) sudo apt-get build-dep python-imaging
+(X) sudo apt-get install libjpeg62 libjpeg62-dev
+(X) sudo apt-get update
+(E!) You must put some 'source' URIs in your sources.list
+
+[optional] Aptitude 
+
+(X) sudo apt-get install aptitude
+(E!) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
+(X) sudo aptitude show python-imaging
+
+
 [optional] Scipy 0.12.0 or higher
 (X) sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 (X) python -c "import numpy; print numpy.version.version"
 (X) python -c "import scipy; print scipy.version.version"
 (X) sudo pip install --upgrade scipy (from 0.9.0 to 0.13.x)
+
 
 [optional] NeuroDebian 
 ( ) wget -O- http://neuro.debian.net/lists/precise.de-m.libre | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
@@ -39,32 +72,20 @@ Assuming... you have python 2.7, run the following for Django:
 ( ) sudo apt-get upgrade
 
 
-[optional] Python imaging 
-(?) sudo apt-get install python-imaging
-(X) sudo apt-get build-dep python-imaging
-(X) sudo apt-get install libjpeg62 libjpeg62-dev
-(X) sudo apt-get update
-(E) You must put some 'source' URIs in your sources.list
 
-
-[optional] Aptitude 
-
-(X) sudo apt-get install aptitude
-( ) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
-(X) sudo aptitude show python-imaging
-
-
-And Install the other dependencies as follows:
+[!] And Install the other dependencies as follows:
 
 (X) sudo pip install south django-authopenid oauth2
 (X) TO-DO: add howto install scipy (although this seems to be optional)
+
+
 
 [optional] GIT Clone;)
 (X) sudo apt-get install git-core
 (X) git clone https://github.com/jjoc/getopinionated
 
 
-Getting started
+[Getting started!]
 
 
 [IMPORTANT] Make sure to add a local_settings.py file.
@@ -74,11 +95,15 @@ Getting started
 (X) #ENABLE_SOUTH = True # use south on online databases (just uncomment)
 
 
-To run the development server, run
+[!] To run the development server, run
 
 (X) python manage.py
 (X) python manage.py localserver
-(X) python manage.py runserver 8000
+( ) python manage.py runserver 8000
+
+( ) django-admin.py <commands!>
+( ) python manage.py syncdb ???
+
 
 
 This will create the database, populate it with the data in testdata.json and execute manage.py runserver.
@@ -98,22 +123,6 @@ Notes & tricks;) for setting up a production server
 (X) python manage.py updatevoting
 
 
-[TEMP-VirtualEnviroment-PRE-Production]
-
-(X) sudo pip install virtualenv
-(X) sudo pip install virtualenvwrapper
-(X) mkdir ~/.virtualenvs
-(X) export WORKON_HOME=`~/.virtualenvs`
-(X) echo "export WORKON_HOME=$WORKON_HOME" >> ~/.bashrc
-(X) echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
-(X) echo "export PIP_VIRTUALENV_BASE=$WORKON_HOME" >> ~/.bashrc
-(X) source ~/.bashrc
-(X) mkvirtualenv getOpinionated
-
-[Testing Commands "dontforget" workon;)]
-
-(X) python -c "import sys; print sys.path"
-(X) activate deactivate etc etc etc
 
 
 [Revisando... Step 4 Step]
