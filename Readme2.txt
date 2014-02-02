@@ -9,25 +9,6 @@ Ubuntu 12.04 comes with python v 2.7.3 by default.
 Furthermore, getopinionated has been developed on python 2.7
 
 
-[TEMP-VirtualEnviroment-PRE-Production]
-
-(X) sudo pip install virtualenv
-(X) sudo pip install virtualenvwrapper
-(X) mkdir ~/.virtualenvs
-(X) export WORKON_HOME=`~/.virtualenvs`
-(X) echo "export WORKON_HOME=$WORKON_HOME" >> ~/.bashrc
-(X) echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
-(X) echo "export PIP_VIRTUALENV_BASE=$WORKON_HOME" >> ~/.bashrc
-(X) source ~/.bashrc
-(X) mkvirtualenv getOpinionated
-
-[Testing Commands "dontforget" workon;)]
-
-(X) python -c "import sys; print sys.path"
-(X) activate deactivate etc etc etc
-
-
-
 You need a number of python modules to run getopinionated;
 Assuming... you have python 2.7, run the following for Django:
 
@@ -53,7 +34,6 @@ Assuming... you have python 2.7, run the following for Django:
 [optional] Aptitude 
 
 (X) sudo apt-get install aptitude
-(E!) sudo aptitude install python-pythonmagick python-markdown python-textile python-docutils
 (X) sudo aptitude show python-imaging
 
 
@@ -135,6 +115,7 @@ Notes & tricks;) for setting up a production server
 
 (X) 2) For production you need to run getopinionated from a server like apache with "wsgi-script"
 
+
 (X) 3) for the server: you need include your getopinionated/wsgi.py in apache
 
 See this for explanation: 
@@ -151,10 +132,10 @@ oOoh Yeah!
 
 
 Install django-wysiwyg-redactor:
-(X) sudo pip install django-wysiwyg-redactor
+( ) sudo pip install django-wysiwyg-redactor
 
-(X) Add 'redactor' to INSTALLED_APPS. (settings.py?)
-(X) Add url(r'^redactor/', include('redactor.urls')), to urls.py
+( ) Add 'redactor' to INSTALLED_APPS. (settings.py?)
+( ) Add url(r'^redactor/', include('redactor.urls')), to urls.py
 
 Add default config in settings.py (fot more settings, see here)
 (E!) REDACTOR_OPTIONS = {'lang': 'en'} REDACTOR_UPLOAD = 'uploads/' 
@@ -162,6 +143,24 @@ Add default config in settings.py (fot more settings, see here)
 
 [SWICHT EDITOR]
 
+[VIRTUAL ENVIROMENT]
+
+[TEMP-VirtualEnviroment-PRE-Production]
+
+(X) sudo pip install virtualenv
+(X) sudo pip install virtualenvwrapper
+(X) mkdir ~/.virtualenvs
+(X) export WORKON_HOME=`~/.virtualenvs`
+(X) echo "export WORKON_HOME=$WORKON_HOME" >> ~/.bashrc
+(X) echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+(X) echo "export PIP_VIRTUALENV_BASE=$WORKON_HOME" >> ~/.bashrc
+(X) source ~/.bashrc
+(X) mkvirtualenv getOpinionated
+
+[Testing Commands "dontforget" workon;)]
+
+(X) python -c "import sys; print sys.path"
+(X) activate deactivate etc etc etc
 
 
 
