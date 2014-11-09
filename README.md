@@ -1,8 +1,10 @@
 GetOpinionated
 ==============
+
 An online vote system supporting liquid democracy and document collaboration.
 
 GetOpinionated (Liquid Democracy System)
+-------------
 
 
 Installing dependencies in OS Ubuntu 12.04 (32b)
@@ -14,9 +16,9 @@ You need a number of python modules to run getopinionated;
 Assuming... you have python 2.7, run the following for Django:
 
 
-(X) sudo apt-get update
-(X) sudo apt-get upgrade
-(X) sudo apt-get install python-pip
+(X)* sudo apt-get update
+(X)* sudo apt-get upgrade
+(X)* sudo apt-get install python-pip
 (X) sudo pip install django==1.4
 (X) sudo apt-get update
 (X) sudo apt-get install python-django-south
