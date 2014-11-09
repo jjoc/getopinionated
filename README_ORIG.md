@@ -25,6 +25,7 @@ Assuming you have python 2.7, run the following for Django:
 
 And Install the other dependencies as follows:
 
+
     sudo pip install south django-authopenid oauth2
 
 TODO: add howto install scipy (although this seems to be optional)
