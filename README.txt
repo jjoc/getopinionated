@@ -28,6 +28,7 @@ Assuming... you have python 2.7, run the following for Django:
 
 
 [optional] Python imaging 
+
 (?) sudo apt-get install python-imaging
 (X) sudo apt-get build-dep python-imaging
 (X) sudo apt-get install libjpeg62 libjpeg62-dev
@@ -41,6 +42,7 @@ Assuming... you have python 2.7, run the following for Django:
 
 
 [optional] Scipy 0.12.0 or higher
+
 (X) sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 (X) python -c "import numpy; print numpy.version.version"
 (X) python -c "import scipy; print scipy.version.version"
@@ -48,6 +50,7 @@ Assuming... you have python 2.7, run the following for Django:
 
 
 [optional] NeuroDebian 
+
 ( ) wget -O- http://neuro.debian.net/lists/precise.de-m.libre | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list
 ( ) sudo apt-key adv --recv-keys --keyserver pgp.mit.edu 2649A5A9
 ( ) sudo apt-get update
@@ -65,6 +68,7 @@ Assuming... you have python 2.7, run the following for Django:
 
 
 [optional] GIT Clone;)
+
 (X) sudo apt-get install git-core
 (X) git clone https://github.com/jjoc/getopinionated
 
@@ -73,6 +77,7 @@ Assuming... you have python 2.7, run the following for Django:
 
 
 [IMPORTANT] Make sure to add a local_settings.py file.
+
 (X) cd getopinionated/getopinionated
 (X) sudo cp -a local_settings.py.template local_settings.py
 (X) sudo vi local_settings.py
@@ -103,7 +108,7 @@ Notes & tricks;) for setting up a production server
 
 (?) Install all optional dependencies as well.
 (?) For more info on this, take a look at a template file.
-(?) Set up cronjob to call the following at least every 5 minutes:
+(|) Set up cronjob to call the following at least every 5 minutes:
 (X) python manage.py updatevoting
 
 
@@ -114,7 +119,8 @@ Notes & tricks;) for setting up a production server
 (X) 1) In the settings, you'll find
 (X) DEFAULT_DOCUMENT_SLUG = 'default-document'
 (X) go into the admin-section and create document with the "slug: default-document"
-   (we're planning on having multiple documents on one site, but we are not there yet)
+
+   (we're planning on having multiple documents on one site, but we are not there yet)(Tx;)
 
 (X) 2) For production you need to run getopinionated from a server like apache with "wsgi-script"
 
